@@ -1,0 +1,13 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="projecttest.controller.ViewZ">
+    <Page id="page" title="{i18n>title}">
+    <content>
+        <PagingButton count="5" id="button0"/>
+        <UploadCollection noDataText="No files found." noDataDescription="Drop files to upload, or use the &quot;+&quot; button." id="collection0">
+            <items>
+                <UploadCollectionItem contributor="Contributor1" fileName="fileName1" uploadedDate="Sun Mar 09 2025" id="item0"/>
+                <UploadCollectionItem contributor="Contributor1" fileName="fileName2" uploadedDate="Sun Mar 09 2025" id="item1"/>
+                <UploadCollectionItem contributor="Contributor1" fileName="fileName3" uploadedDate="Sun Mar 09 2025" id="item2"/></items>
+        </UploadCollection>
+    </content>
+    </Page>
+</mvc:View>
